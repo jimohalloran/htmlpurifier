@@ -1,5 +1,5 @@
 {
-    "name": "ezyang/htmlpurifier",
+    "name": "jimohalloran/htmlpurifier",
     "description": "Standards compliant HTML filter written in PHP",
     "type": "library",
     "keywords": ["html"],
@@ -18,6 +18,9 @@
     "require-dev": {
         "cerdic/css-tidy": "^1.7 || ^2.0",
         "simpletest/simpletest": "dev-master"
+    },
+    "replace": {
+	"ezyang/htmlpurifier": "4.14.0 || 4.15.0"
     },
     "autoload": {
         "psr-0": { "HTMLPurifier": "library/" },
